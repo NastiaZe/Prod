@@ -21,5 +21,6 @@ jobs:
       with:
         java-version: 11
     - name: Build with Maven
-      run: -B -e verify
+      run: mvn -B -e verify
+      
       
